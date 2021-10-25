@@ -1,5 +1,5 @@
 # Verificación y Validación del Software 2021
-GRUPO IWT-42 ``<- Modificar``
+Grupo 3 IWT-42 
 
 ## Instrucciones para utilizar este proyecto
 

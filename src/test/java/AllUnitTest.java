@@ -1,11 +1,25 @@
-import com.practica.cajanegra.ToStringTest;
+import com.practica.cajanegra.*;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.platform.runner.JUnitPlatform;
 import org.junit.platform.suite.api.SelectClasses;
 import org.junit.runner.RunWith;
 
 @RunWith(JUnitPlatform.class)
-@SelectClasses({ToStringTest.class})    // Añadir aqui cada clase de test que se vaya a crear
+@SelectClasses({            // Añadir aqui cada clase de test que se vaya a crear
+        AddAtPosTest.class,
+        AddFirstTest.class,
+        AddLastTest.class,
+        AddNTimesTest.class,
+        GetAtPosTest.class,
+        IndexOfTest.class,
+        IsEmptyTest.class,
+        IsSubListTest.class,
+        RemoveLastTest.class,
+        ReverseTest.class,
+        SizeTest.class,
+        ToStringTest.class
+})
+
 public class AllUnitTest {
                                         /*
                                            - No hace falta poner nada aqui.
